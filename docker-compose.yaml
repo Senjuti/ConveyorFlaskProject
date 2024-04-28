@@ -1,0 +1,13 @@
+name: conveyor
+services:
+  flask:
+    build: .
+    ports:
+      - '8080:8080'
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    volumes:
+      - ~/.aws:/root/.aws
+
+volumes:
+  flask:
