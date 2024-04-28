@@ -1,0 +1,190 @@
+2024-04-27 15:05:41,509:INFO:URL Map: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>,
+ <Rule '/api/v1/swagger.json' (OPTIONS, GET, HEAD) -> Conveyor API.specs>,
+ <Rule '/api/v1/' (OPTIONS, GET, HEAD) -> Conveyor API.doc>,
+ <Rule '/api/v1/' (OPTIONS, GET, HEAD) -> Conveyor API.root>,
+ <Rule '/swaggerui/<filename>' (OPTIONS, GET, HEAD) -> restx_doc.static>,
+ <Rule '/api/v1/aws/list' (OPTIONS, GET, HEAD) -> Conveyor API.aws_list>,
+ <Rule '/api/v1/aws/create/<bucket_name>' (OPTIONS, POST) -> Conveyor API.aws_create>,
+ <Rule '/api/v1/aws/delete/<bucket_name>' (DELETE, OPTIONS) -> Conveyor API.aws_delete>,
+ <Rule '/api/v1/status/ready' (OPTIONS, GET, HEAD) -> Conveyor API.status_ready>])
+2024-04-27 15:05:41,532:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.18:8080
+2024-04-27 15:05:41,532:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 15:05:41,535:INFO: * Restarting with stat
+2024-04-27 15:05:42,039:INFO:URL Map: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>,
+ <Rule '/api/v1/swagger.json' (HEAD, GET, OPTIONS) -> Conveyor API.specs>,
+ <Rule '/api/v1/' (HEAD, GET, OPTIONS) -> Conveyor API.doc>,
+ <Rule '/api/v1/' (HEAD, GET, OPTIONS) -> Conveyor API.root>,
+ <Rule '/swaggerui/<filename>' (HEAD, GET, OPTIONS) -> restx_doc.static>,
+ <Rule '/api/v1/aws/list' (HEAD, GET, OPTIONS) -> Conveyor API.aws_list>,
+ <Rule '/api/v1/aws/create/<bucket_name>' (POST, OPTIONS) -> Conveyor API.aws_create>,
+ <Rule '/api/v1/aws/delete/<bucket_name>' (DELETE, OPTIONS) -> Conveyor API.aws_delete>,
+ <Rule '/api/v1/status/ready' (HEAD, GET, OPTIONS) -> Conveyor API.status_ready>])
+2024-04-27 15:05:42,051:WARNING: * Debugger is active!
+2024-04-27 15:05:42,053:INFO: * Debugger PIN: 709-464-853
+2024-04-27 15:05:49,943:INFO:Create bucket=123.
+2024-04-27 15:05:49,944:DEBUG:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-04-27 15:05:49,945:DEBUG:Changing event name from before-call.apigateway to before-call.api-gateway
+2024-04-27 15:05:49,946:DEBUG:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-04-27 15:05:49,947:DEBUG:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-04-27 15:05:49,947:DEBUG:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-04-27 15:05:49,948:DEBUG:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-04-27 15:05:49,949:DEBUG:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-04-27 15:05:49,950:DEBUG:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-04-27 15:05:49,951:DEBUG:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-04-27 15:05:49,951:DEBUG:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-04-27 15:05:49,951:DEBUG:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-04-27 15:05:50,003:DEBUG:Loading JSON file: C:\Users\Senjuti\AppData\Roaming\Python\Python311\site-packages\boto3\data\s3\2006-03-01\resources-1.json
+2024-04-27 15:05:50,005:DEBUG:IMDS ENDPOINT: http://169.254.169.254/
+2024-04-27 15:05:50,013:DEBUG:Looking for credentials via: env
+2024-04-27 15:05:50,013:DEBUG:Looking for credentials via: assume-role
+2024-04-27 15:05:50,013:DEBUG:Looking for credentials via: assume-role-with-web-identity
+2024-04-27 15:05:50,013:DEBUG:Looking for credentials via: sso
+2024-04-27 15:05:50,014:DEBUG:Looking for credentials via: shared-credentials-file
+2024-04-27 15:05:50,014:INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2024-04-27 15:05:50,015:DEBUG:Loading JSON file: C:\Users\Senjuti\AppData\Roaming\Python\Python311\site-packages\botocore\data\endpoints.json
+2024-04-27 15:05:50,021:DEBUG:Loading JSON file: C:\Users\Senjuti\AppData\Roaming\Python\Python311\site-packages\botocore\data\sdk-default-configuration.json
+2024-04-27 15:05:50,021:DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000015B1461F2E0>
+2024-04-27 15:05:50,050:DEBUG:Loading JSON file: C:\Users\Senjuti\AppData\Roaming\Python\Python311\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-04-27 15:05:50,082:DEBUG:Loading JSON file: C:\Users\Senjuti\AppData\Roaming\Python\Python311\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-04-27 15:05:50,084:DEBUG:Loading JSON file: C:\Users\Senjuti\AppData\Roaming\Python\Python311\site-packages\botocore\data\partitions.json
+2024-04-27 15:05:50,085:DEBUG:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000015B14550AE0>
+2024-04-27 15:05:50,085:DEBUG:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000015B148F3560>
+2024-04-27 15:05:50,105:DEBUG:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000015B14550860>
+2024-04-27 15:05:50,106:DEBUG:Looking for endpoint for s3 via: environment_service
+2024-04-27 15:05:50,106:DEBUG:Looking for endpoint for s3 via: environment_global
+2024-04-27 15:05:50,106:DEBUG:Looking for endpoint for s3 via: config_service
+2024-04-27 15:05:50,107:DEBUG:Looking for endpoint for s3 via: config_global
+2024-04-27 15:05:50,107:DEBUG:No configured endpoint found.
+2024-04-27 15:05:50,108:DEBUG:Setting s3 timeout as (60, 60)
+2024-04-27 15:05:50,109:DEBUG:Loading JSON file: C:\Users\Senjuti\AppData\Roaming\Python\Python311\site-packages\botocore\data\_retry.json
+2024-04-27 15:05:50,109:DEBUG:Registering retry handlers for service: s3
+2024-04-27 15:05:50,110:DEBUG:Registering S3 region redirector handler
+2024-04-27 15:05:50,110:DEBUG:Registering S3Express Identity Resolver
+2024-04-27 15:05:50,110:DEBUG:Loading s3:s3
+2024-04-27 15:05:50,111:INFO:Creating new bucket: 123
+2024-04-27 15:05:50,111:DEBUG:Calling s3:create_bucket with {'Bucket': '123', 'CreateBucketConfiguration': {'LocationConstraint': 'us-east-1'}}
+2024-04-27 15:05:50,112:DEBUG:Event before-parameter-build.s3.CreateBucket: calling handler <function validate_bucket_name at 0x0000015B14639120>
+2024-04-27 15:05:50,112:DEBUG:Event before-parameter-build.s3.CreateBucket: calling handler <function remove_bucket_from_url_paths_from_model at 0x0000015B1463B240>
+2024-04-27 15:05:50,112:DEBUG:Event before-parameter-build.s3.CreateBucket: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000015B1411D150>>
+2024-04-27 15:05:50,112:DEBUG:Event before-parameter-build.s3.CreateBucket: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x0000015B14E54DD0>>
+2024-04-27 15:05:50,112:DEBUG:Event before-parameter-build.s3.CreateBucket: calling handler <function generate_idempotent_uuid at 0x0000015B14638F40>
+2024-04-27 15:05:50,113:DEBUG:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x0000015B1463B420>
+2024-04-27 15:05:50,113:DEBUG:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000015B1411D150>>
+2024-04-27 15:05:50,113:DEBUG:Calling endpoint provider with parameters: {'Bucket': '123', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableAccessPoints': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'UseS3ExpressControlEndpoint': True}
+2024-04-27 15:05:50,114:DEBUG:Endpoint provider result: https://123.s3.amazonaws.com
+2024-04-27 15:05:50,114:DEBUG:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-04-27 15:05:50,114:DEBUG:Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-04-27 15:05:50,115:DEBUG:Event before-call.s3.CreateBucket: calling handler <function add_expect_header at 0x0000015B146394E0>
+2024-04-27 15:05:50,115:DEBUG:Event before-call.s3.CreateBucket: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000015B152C2E10>>
+2024-04-27 15:05:50,115:DEBUG:Event before-call.s3.CreateBucket: calling handler <function add_recursion_detection_header at 0x0000015B1461FEC0>
+2024-04-27 15:05:50,115:DEBUG:Event before-call.s3.CreateBucket: calling handler <function inject_api_version_header_if_needed at 0x0000015B1463AA20>
+2024-04-27 15:05:50,115:DEBUG:Making request for OperationModel(name=CreateBucket) with params: {'url_path': '', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.92 md/Botocore#1.34.92 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.11.4 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.92 Resource'}, 'body': b'<CreateBucketConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><LocationConstraint>us-east-1</LocationConstraint></CreateBucketConfiguration>', 'auth_path': '/123/', 'url': 'https://123.s3.amazonaws.com/', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000015B149293D0>, 'has_streaming_input': False, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': '123', 'params': {'Bucket': '123', 'CreateBucketConfiguration': {'LocationConstraint': 'us-east-1'}}}, 'input_params': {'Bucket': '123'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-04-27 15:05:50,116:DEBUG:Event request-created.s3.CreateBucket: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000015B14F2A9D0>>
+2024-04-27 15:05:50,116:DEBUG:Event choose-signer.s3.CreateBucket: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000015B14E54DD0>>
+2024-04-27 15:05:50,116:DEBUG:Event choose-signer.s3.CreateBucket: calling handler <function set_operation_specific_signer at 0x0000015B14638E00>
+2024-04-27 15:05:50,116:DEBUG:Event before-sign.s3.CreateBucket: calling handler <function remove_arn_from_signing_path at 0x0000015B1463B380>
+2024-04-27 15:05:50,117:DEBUG:Event before-sign.s3.CreateBucket: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x0000015B152C2E10>>
+2024-04-27 15:05:50,117:DEBUG:Calculating signature using v4 auth.
+2024-04-27 15:05:50,117:DEBUG:CanonicalRequest:
+PUT
+/
+
+host:123.s3.amazonaws.com
+x-amz-content-sha256:771df8abbecb2265e9724e5dc4510dcc16060c0513ae669baf35b255d465b63f
+x-amz-date:20240427T190550Z
+
+host;x-amz-content-sha256;x-amz-date
+771df8abbecb2265e9724e5dc4510dcc16060c0513ae669baf35b255d465b63f
+2024-04-27 15:05:50,117:DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20240427T190550Z
+20240427/us-east-1/s3/aws4_request
+c322f73aecb07b351fc512d9f01f6a4a5f378ac13e6b751ad964389dcf43e31c
+2024-04-27 15:05:50,118:DEBUG:Signature:
+688bf44046afc85ae0b6a49fedc4ab0c335264ff72c55fa78c7035b7226913e9
+2024-04-27 15:05:50,118:DEBUG:Event request-created.s3.CreateBucket: calling handler <function add_retry_headers at 0x0000015B1463B1A0>
+2024-04-27 15:05:50,118:DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://123.s3.amazonaws.com/, headers={'User-Agent': b'Boto3/1.34.92 md/Botocore#1.34.92 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.11.4 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.92 Resource', 'X-Amz-Date': b'20240427T190550Z', 'X-Amz-Content-SHA256': b'771df8abbecb2265e9724e5dc4510dcc16060c0513ae669baf35b255d465b63f', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAXMR25IIBOVWJ2UMM/20240427/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=688bf44046afc85ae0b6a49fedc4ab0c335264ff72c55fa78c7035b7226913e9', 'amz-sdk-invocation-id': b'c75ad9e2-f3aa-4f93-874e-ad4d2c338d33', 'amz-sdk-request': b'attempt=1', 'Content-Length': '153'}>
+2024-04-27 15:05:50,118:DEBUG:Certificate path: C:\Users\Senjuti\AppData\Roaming\Python\Python311\site-packages\botocore\cacert.pem
+2024-04-27 15:05:50,119:DEBUG:Starting new HTTPS connection (1): 123.s3.amazonaws.com:443
+2024-04-27 15:05:50,419:DEBUG:https://123.s3.amazonaws.com:443 "PUT / HTTP/1.1" 400 None
+2024-04-27 15:05:50,420:DEBUG:Response headers: {'x-amz-request-id': 'R6J83KJA3V6M4NPJ', 'x-amz-id-2': 'PHrZI2V0Mc0rVVzB+XrhJNy7jCwi9fVpZQ3jVBOM+LFhC7u+xlZo9cHW6N6clNEqY6kM0hpT1ok=', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 27 Apr 2024 19:05:48 GMT', 'Server': 'AmazonS3', 'Connection': 'close'}
+2024-04-27 15:05:50,420:DEBUG:Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>AuthorizationHeaderMalformed</Code><Message>The authorization header is malformed; the region \'us-east-1\' is wrong; expecting \'eu-west-2\'</Message><Region>eu-west-2</Region><RequestId>R6J83KJA3V6M4NPJ</RequestId><HostId>PHrZI2V0Mc0rVVzB+XrhJNy7jCwi9fVpZQ3jVBOM+LFhC7u+xlZo9cHW6N6clNEqY6kM0hpT1ok=</HostId></Error>'
+2024-04-27 15:05:50,421:DEBUG:Event needs-retry.s3.CreateBucket: calling handler <botocore.retryhandler.RetryHandler object at 0x0000015B152C2B90>
+2024-04-27 15:05:50,422:DEBUG:No retry needed.
+2024-04-27 15:05:50,422:DEBUG:Event needs-retry.s3.CreateBucket: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000015B1411D150>>
+2024-04-27 15:05:50,422:DEBUG:S3 client configured for region us-east-1 but the bucket 123 is in region eu-west-2; Please configure the proper region to avoid multiple unnecessary redirects and signing attempts.
+2024-04-27 15:05:50,423:DEBUG:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x0000015B1463B420>
+2024-04-27 15:05:50,423:DEBUG:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000015B1411D150>>
+2024-04-27 15:05:50,423:DEBUG:Calling endpoint provider with parameters: {'Bucket': '123', 'Region': 'eu-west-2', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableAccessPoints': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'UseS3ExpressControlEndpoint': True}
+2024-04-27 15:05:50,423:DEBUG:Endpoint provider result: https://123.s3.eu-west-2.amazonaws.com
+2024-04-27 15:05:50,424:DEBUG:Updating URI from https://123.s3.amazonaws.com/ to https://123.s3.eu-west-2.amazonaws.com/
+2024-04-27 15:05:50,424:DEBUG:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-04-27 15:05:50,424:DEBUG:Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-west-2', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-04-27 15:05:50,424:DEBUG:Response received to retry, sleeping for 0 seconds
+2024-04-27 15:05:50,427:DEBUG:Event request-created.s3.CreateBucket: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000015B14F2A9D0>>
+2024-04-27 15:05:50,427:DEBUG:Event choose-signer.s3.CreateBucket: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000015B14E54DD0>>
+2024-04-27 15:05:50,428:DEBUG:Event choose-signer.s3.CreateBucket: calling handler <function set_operation_specific_signer at 0x0000015B14638E00>
+2024-04-27 15:05:50,428:DEBUG:Event before-sign.s3.CreateBucket: calling handler <function remove_arn_from_signing_path at 0x0000015B1463B380>
+2024-04-27 15:05:50,428:DEBUG:Event before-sign.s3.CreateBucket: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x0000015B152C2E10>>
+2024-04-27 15:05:50,428:DEBUG:Calculating signature using v4 auth.
+2024-04-27 15:05:50,429:DEBUG:CanonicalRequest:
+PUT
+/
+
+host:123.s3.eu-west-2.amazonaws.com
+x-amz-content-sha256:771df8abbecb2265e9724e5dc4510dcc16060c0513ae669baf35b255d465b63f
+x-amz-date:20240427T190550Z
+
+host;x-amz-content-sha256;x-amz-date
+771df8abbecb2265e9724e5dc4510dcc16060c0513ae669baf35b255d465b63f
+2024-04-27 15:05:50,429:DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20240427T190550Z
+20240427/eu-west-2/s3/aws4_request
+178e1c6e43e332182fbca9c75154f8b39527b4c4cceb34e25e7f1d441dbba1a7
+2024-04-27 15:05:50,429:DEBUG:Signature:
+893eb6c6033084e0c6c5773f31488f3226ca2e674d1d67438c561c0f75384afa
+2024-04-27 15:05:50,429:DEBUG:Event request-created.s3.CreateBucket: calling handler <function add_retry_headers at 0x0000015B1463B1A0>
+2024-04-27 15:05:50,430:DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://123.s3.eu-west-2.amazonaws.com/, headers={'User-Agent': b'Boto3/1.34.92 md/Botocore#1.34.92 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.11.4 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.92 Resource', 'X-Amz-Date': b'20240427T190550Z', 'X-Amz-Content-SHA256': b'771df8abbecb2265e9724e5dc4510dcc16060c0513ae669baf35b255d465b63f', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAXMR25IIBOVWJ2UMM/20240427/eu-west-2/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=893eb6c6033084e0c6c5773f31488f3226ca2e674d1d67438c561c0f75384afa', 'amz-sdk-invocation-id': b'c75ad9e2-f3aa-4f93-874e-ad4d2c338d33', 'amz-sdk-request': b'ttl=20240427T190648Z; attempt=2; max=5', 'Content-Length': '153'}>
+2024-04-27 15:05:50,430:DEBUG:Certificate path: C:\Users\Senjuti\AppData\Roaming\Python\Python311\site-packages\botocore\cacert.pem
+2024-04-27 15:05:50,430:DEBUG:Starting new HTTPS connection (1): 123.s3.eu-west-2.amazonaws.com:443
+2024-04-27 15:05:50,785:DEBUG:https://123.s3.eu-west-2.amazonaws.com:443 "PUT / HTTP/1.1" 400 None
+2024-04-27 15:05:50,786:DEBUG:Response headers: {'x-amz-request-id': 'ADMN3F8YSDNEEGCQ', 'x-amz-id-2': 'EchmdLZHBBqFHe4EJSfDa8k7fYamlfeQEy47n/mk6ZYlM9IJMsXTaIKchSHGSBEX24eYaABhaO8=', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 27 Apr 2024 19:05:48 GMT', 'Server': 'AmazonS3', 'Connection': 'close'}
+2024-04-27 15:05:50,787:DEBUG:Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>IllegalLocationConstraintException</Code><Message>The us-east-1 location constraint is incompatible for the region specific endpoint this request was sent to.</Message><RequestId>ADMN3F8YSDNEEGCQ</RequestId><HostId>EchmdLZHBBqFHe4EJSfDa8k7fYamlfeQEy47n/mk6ZYlM9IJMsXTaIKchSHGSBEX24eYaABhaO8=</HostId></Error>'
+2024-04-27 15:05:50,787:DEBUG:Event needs-retry.s3.CreateBucket: calling handler <botocore.retryhandler.RetryHandler object at 0x0000015B152C2B90>
+2024-04-27 15:05:50,787:DEBUG:No retry needed.
+2024-04-27 15:05:50,787:DEBUG:Event needs-retry.s3.CreateBucket: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000015B1411D150>>
+2024-04-27 15:05:50,787:DEBUG:S3 request was previously redirected, not redirecting.
+2024-04-27 15:05:50,788:ERROR:Failed to create bucket: An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation: The us-east-1 location constraint is incompatible for the region specific endpoint this request was sent to.
+2024-04-27 15:05:50,789:INFO:127.0.0.1 - - [27/Apr/2024 15:05:50] "POST /api/v1/aws/create/123 HTTP/1.1" 200 -
+2024-04-27 15:05:55,334:INFO:URL Map: Map([<Rule '/static/<filename>' (HEAD, OPTIONS, GET) -> static>,
+ <Rule '/api/v1/swagger.json' (HEAD, OPTIONS, GET) -> Conveyor API.specs>,
+ <Rule '/api/v1/' (HEAD, OPTIONS, GET) -> Conveyor API.doc>,
+ <Rule '/api/v1/' (HEAD, OPTIONS, GET) -> Conveyor API.root>,
+ <Rule '/swaggerui/<filename>' (HEAD, OPTIONS, GET) -> restx_doc.static>,
+ <Rule '/api/v1/aws/list' (HEAD, OPTIONS, GET) -> Conveyor API.aws_list>,
+ <Rule '/api/v1/aws/create/<bucket_name>' (POST, OPTIONS) -> Conveyor API.aws_create>,
+ <Rule '/api/v1/aws/delete/<bucket_name>' (OPTIONS, DELETE) -> Conveyor API.aws_delete>,
+ <Rule '/api/v1/status/ready' (HEAD, OPTIONS, GET) -> Conveyor API.status_ready>])
+2024-04-27 15:05:55,353:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.18:8080
+2024-04-27 15:05:55,353:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 15:05:55,355:INFO: * Restarting with stat
+2024-04-27 15:05:55,843:INFO:URL Map: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>,
+ <Rule '/api/v1/swagger.json' (OPTIONS, GET, HEAD) -> Conveyor API.specs>,
+ <Rule '/api/v1/' (OPTIONS, GET, HEAD) -> Conveyor API.doc>,
+ <Rule '/api/v1/' (OPTIONS, GET, HEAD) -> Conveyor API.root>,
+ <Rule '/swaggerui/<filename>' (OPTIONS, GET, HEAD) -> restx_doc.static>,
+ <Rule '/api/v1/aws/list' (OPTIONS, GET, HEAD) -> Conveyor API.aws_list>,
+ <Rule '/api/v1/aws/create/<bucket_name>' (OPTIONS, POST) -> Conveyor API.aws_create>,
+ <Rule '/api/v1/aws/delete/<bucket_name>' (DELETE, OPTIONS) -> Conveyor API.aws_delete>,
+ <Rule '/api/v1/status/ready' (OPTIONS, GET, HEAD) -> Conveyor API.status_ready>])
+2024-04-27 15:05:55,855:WARNING: * Debugger is active!
+2024-04-27 15:05:55,856:INFO: * Debugger PIN: 709-464-853

@@ -1,0 +1,11 @@
+boto3
+cli-command-parser
+flask
+flask_restx
+gevent
+gunicorn
+
+# Code quality / formatting
+pre-commit
+blue
+flake8

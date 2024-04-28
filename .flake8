@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 9000
+exclude = .git,__pycache__,Makefile,*.flake8,*.toml,*.md
+max-complexity = 100
