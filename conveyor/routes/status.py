@@ -1,6 +1,6 @@
 from flask_restx import Resource, Namespace
 
-status_api = Namespace('status')
+status_api = Namespace('')
 
 
 @status_api.route('/ready', methods=['GET'])

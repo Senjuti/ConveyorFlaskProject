@@ -2,8 +2,10 @@ boto3
 cli-command-parser
 flask
 flask_restx
-gevent
-gunicorn
+
+# Testing
+pytest
+pytest-mock
 
 # Code quality / formatting
 pre-commit

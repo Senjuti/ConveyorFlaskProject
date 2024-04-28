@@ -5,7 +5,7 @@ import logging
 from flask import Flask, Blueprint
 from flask_restx import Api
 
-from conveyor.routes.application import aws_api
+from conveyor.routes.aws import aws_api
 from conveyor.routes.status import status_api
 
 log = logging.getLogger(__name__)

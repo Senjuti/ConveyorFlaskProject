@@ -3,7 +3,7 @@ import logging
 from flask_restx import Resource, Namespace
 from flask_restx.fields import Raw, String, Boolean
 
-from conveyor.utils.s3_utils import list_buckets, create_bucket, delete_bucket
+from ..utils.s3_utils import list_buckets, create_bucket, delete_bucket
 
 aws_api = Namespace('aws')
 
@@ -30,7 +30,13 @@ class List(Resource):
     @aws_api.marshal_with(response_t, skip_none=True)
     def get(self):
         log.info('List buckets.')
-        return {'message': list_buckets(), 'success': True}
+        try:
+            return {'message': list_buckets(), 'success': True}
+        except Exception as e:
+            return {
+                'message': f'Failed to list buckets due to error: {e}',
+                'success': False,
+            }
 
 
 @aws_api.route('/create/<string:bucket_name>', methods=['POST'])
@@ -39,8 +45,7 @@ class Create(Resource):
     def post(self, bucket_name):
         log.info(f'Create bucket={bucket_name}.')
         try:
-            res = create_bucket(bucket_name)
-            return {'message': res, 'success': True}
+            return {'message': create_bucket(bucket_name), 'success': True}
         except Exception as e:
             return {
                 'message': f'Failed to create bucket={bucket_name} due to error: {e}',
@@ -54,8 +59,7 @@ class Delete(Resource):
     def delete(self, bucket_name):
         log.info(f'Delete bucket={bucket_name}.')
         try:
-            res = delete_bucket(bucket_name)
-            return {'message': res, 'success': True}
+            return {'message': delete_bucket(bucket_name), 'success': True}
         except Exception as e:
             return {
                 'message': f'Failed to delete bucket={bucket_name} due to error: {e}',

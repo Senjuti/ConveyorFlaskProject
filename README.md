@@ -40,3 +40,8 @@ If you are running on Windows, your AWS credentials should be located on:
 ```
 C:\Users\USERNAME\.aws\config
 ```
+
+## Running Tests
+```
+make test
+```

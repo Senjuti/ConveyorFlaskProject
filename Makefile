@@ -5,6 +5,10 @@ init:
 venv:
 	bin/setup_venv.sh
 
+.PHONY: test
+test:
+	pytest tests/
+
 hooks:
 	pre-commit install --install-hooks
 
