@@ -42,6 +42,19 @@ C:\Users\USERNAME\.aws\config
 ```
 
 ## Running Tests
+
 ```
 make test
+```
+
+## Containerizing the Application
+
+First build your Docker image by running:
+```
+docker build -t conveyor-flask-app .
+```
+
+Then run your image as a container:
+```
+docker run conveyor-flask-app
 ```
