@@ -1,7 +1,10 @@
+# AWS
 boto3
-cli-command-parser
+
+# Flask
 flask
 flask_restx
+gunicorn
 
 # Testing
 pytest

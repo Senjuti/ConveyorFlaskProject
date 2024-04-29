@@ -13,7 +13,6 @@ logging.basicConfig(
     level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s'
 )
 
-
 blueprint = Blueprint('Conveyor API', __name__, url_prefix='/api/v1')
 api = Api(blueprint, title='Conveyor API', description='CRUD API')
 api.add_namespace(aws_api)

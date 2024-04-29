@@ -6,11 +6,16 @@ Boilerplate Flask Project for Conveyor Technical Interview
 
 ### Linux
 
-To start the Flask Server, activate the venv and run:
+To start the Flask Server in development mode, activate the venv and run:
 
 ```
 $ make venv
 (conveyor-flask-app) $ bin/server.py
+```
+
+To run with gunicorn:
+```
+$ gunicorn --workers=2 -b 0.0.0.0:8080 'conveyor.flask_app:create_app()'
 ```
 
 ### PyCharm
